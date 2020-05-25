@@ -1,0 +1,6 @@
+{
+  "short_name": "Job Listing",
+  "name": "Job Listing",
+  "start_url": ".",
+  "display": "standalone"
+}
