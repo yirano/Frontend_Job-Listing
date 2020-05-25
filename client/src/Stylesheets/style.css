@@ -8,27 +8,38 @@ body, html, * {
   padding: 0;
   font-size: 14px; }
 
+body {
+  background: #effafa; }
+
 a {
   text-decoration: none;
   color: black; }
 
 .App {
-  width: 100vw; }
+  width: 100vw;
+  background: #effafa; }
   .App .header {
     background: #5ba4a4; }
     .App .header img {
       width: 100vw; }
+  .App .form {
+    display: flex;
+    width: 80vw;
+    margin: auto; }
+    .App .form .button {
+      width: 200px; }
   .App .cardContainer {
     display: flex;
     flex-direction: column;
     background: #effafa;
-    padding-top: 50px; }
+    padding-top: 50px;
+    width: 80vw;
+    margin: auto; }
     .App .cardContainer .card {
       display: flex;
       flex-direction: row;
-      width: 80vw;
+      margin: 20px auto;
       padding: 20px;
-      margin: 10px auto;
       background: white;
       border-radius: 4px;
       filter: drop-shadow(0px 9px 8px rgba(91, 164, 164, 0.329)); }

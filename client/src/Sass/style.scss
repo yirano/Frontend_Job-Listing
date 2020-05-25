@@ -8,6 +8,10 @@ body, html, * {
   font-size: 14px;
 }
 
+body {
+    background: $lt_cyan_bg;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -15,10 +19,20 @@ a {
 
 .App {
   width: 100vw;
+    background: $lt_cyan_bg;
   .header {
     background: $desat_dk_cyan;
+    // background-image: url('../../images/bg-')
     img {
       width: 100vw;
+    }
+  }
+  .form {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    .button {
+      width: 200px;
     }
   }
   
@@ -27,12 +41,13 @@ a {
     flex-direction: column;
     background: $lt_cyan_bg;
     padding-top: 50px;
+    width: 80vw;
+    margin: auto;
     .card {
       display: flex;
       flex-direction: row;
-      width: 80vw;
+      margin: 20px auto;
       padding: 20px;
-      margin: 10px auto;
       background: white;
       border-radius: 4px;
       filter: drop-shadow(0px 9px 8px $desat_dk_cyan_shadow);
