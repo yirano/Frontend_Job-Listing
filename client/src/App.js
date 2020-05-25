@@ -11,9 +11,18 @@ import Loading from './Components/Loading/Loading'
 
 
 export class App extends Component {
+  state = {
+    jobs: this.props.jobs,
+    apiUrl: 'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json',
+    apiPage: '?page=1'
+  }
 
   componentWillMount() {
-    this.props.loadJobs('https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?page=1&search=code')
+    this.props.loadJobs(this.state.apiUrl + this.state.apiPage)
+  }
+
+  componentDidUpdate() {
+
   }
 
   render() {

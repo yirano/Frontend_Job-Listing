@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap");
+body {
+  font-family: 'Spartan', sans-serif; }
+
+body, html, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.App {
+  width: 100vw; }
+  .App .header img {
+    width: 100vw; }
+  .App .cardContainer {
+    display: flex;
+    flex-direction: column;
+    background: #effafa;
+    padding-top: 50px; }
+    .App .cardContainer .card {
+      display: flex;
+      flex-direction: row;
+      width: 80vw;
+      padding: 20px;
+      margin: 10px auto;
+      background: white;
+      border-radius: 4px;
+      filter: drop-shadow(0px 9px 8px rgba(91, 164, 164, 0.329)); }
+      .App .cardContainer .card .cardLeft {
+        display: flex;
+        flex-direction: row; }
+        .App .cardContainer .card .cardLeft .logo {
+          display: flex;
+          width: 90px;
+          height: 90px;
+          overflow: hidden;
+          border-radius: 50%;
+          justify-content: center; }
+          .App .cardContainer .card .cardLeft .logo img {
+            align-self: center;
+            width: inherit; }
+        .App .cardContainer .card .cardLeft .type {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+          justify-content: space-evenly; }
+          .App .cardContainer .card .cardLeft .type .companyName {
+            color: #5ba4a4;
+            font-size: 0.95rem; }
+          .App .cardContainer .card .cardLeft .type .jobTitle {
+            font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */

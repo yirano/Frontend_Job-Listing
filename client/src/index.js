@@ -6,6 +6,7 @@ import reducer from './Reducers/reducer'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
+import './Stylesheets/style.css'
 
 
 const store = createStore(reducer, applyMiddleware(thunk))
