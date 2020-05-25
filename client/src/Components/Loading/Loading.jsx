@@ -1,9 +1,10 @@
 import React from 'react'
+import { Spinner } from 'reactstrap'
 
 const Loading = () => {
   return (
-    <div>
-      <h1>YOUR JOBS ARE LOADINGGGG</h1>
+    <div style={{ textAlign: 'center', marginTop: '100px' }}>
+      <Spinner color="info" />
     </div>
   )
 }
