@@ -20,7 +20,7 @@ export class App extends Component {
   }
 
   componentWillMount() {
-    this.props.loadJobs(`http://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?page=${this.state.apiPage}&search=${this.state.search}&full_time=${this.state.full_time}&location=${this.state.location}`)
+    this.props.loadJobs(`https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?page=${this.state.apiPage}&search=${this.state.search}&full_time=${this.state.full_time}&location=${this.state.location}`)
   }
 
   // componentDidUpdate(prevProps, prevState) {
@@ -35,7 +35,7 @@ export class App extends Component {
 
   handleSubmit = e => {
     e.preventDefault()
-    this.props.loadJobs(`http://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?page=${this.state.apiPage}&description=${this.state.search}&full_time=${this.state.full_time}&location=${this.state.location}`)
+    this.props.loadJobs(`https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?page=${this.state.apiPage}&description=${this.state.search}&full_time=${this.state.full_time}&location=${this.state.location}`)
   }
 
   render() {
