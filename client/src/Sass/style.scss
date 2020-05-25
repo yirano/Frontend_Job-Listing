@@ -9,7 +9,7 @@ body, html, * {
 }
 
 body {
-    background: $lt_cyan_bg;
+  background: $lt_cyan_bg;
 }
 
 a {
@@ -50,7 +50,13 @@ a {
       padding: 20px;
       background: white;
       border-radius: 4px;
+      transition: transform 300ms;
+      transform: scale(1);
       filter: drop-shadow(0px 9px 8px $desat_dk_cyan_shadow);
+      &:hover {
+        transform: scale(1.04);
+        transition: transform 300ms;
+      }
       .cardLeft {
         display: flex;
         flex-direction: row;

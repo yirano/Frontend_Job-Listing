@@ -42,7 +42,12 @@ a {
       padding: 20px;
       background: white;
       border-radius: 4px;
+      transition: transform 300ms;
+      transform: scale(1);
       filter: drop-shadow(0px 9px 8px rgba(91, 164, 164, 0.329)); }
+      .App .cardContainer .card:hover {
+        transform: scale(1.04);
+        transition: transform 300ms; }
       .App .cardContainer .card .cardLeft {
         display: flex;
         flex-direction: row; }
