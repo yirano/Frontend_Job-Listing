@@ -14,8 +14,10 @@ a {
 
 .App {
   width: 100vw; }
-  .App .header img {
-    width: 100vw; }
+  .App .header {
+    background: #5ba4a4; }
+    .App .header img {
+      width: 100vw; }
   .App .cardContainer {
     display: flex;
     flex-direction: column;

@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Card = (props) => {
-  console.log("Card -> props", props)
   return (
     <>
       <a href={props.data.url} target="_blank" rel="noopener noreferrer">

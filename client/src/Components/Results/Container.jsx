@@ -6,7 +6,7 @@ const Container = (props) => {
 
   return (
     <div className='cardContainer'>
-      {props.data.map(data => { return <Card data={data} /> })}
+      {props.data.map(data => { return <Card data={data} key={data.id} /> })}
     </div>
   )
 }
