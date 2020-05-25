@@ -18,6 +18,7 @@ This theme is based off of Frontend Mentor's Job Listing challenge. This app als
 3. Contribute your changes/add-ons.
 4. Make a pull request once you're done with the feature you've added/changed in the title.
 
+
 ## Authors
 
 Tiffany Arellano | yirano
